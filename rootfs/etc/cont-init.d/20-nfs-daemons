@@ -1,0 +1,12 @@
+#!/usr/bin/with-contenv ash
+
+if [ -e /sbin/rpcbind ]; then
+	echo "Starting RPCBind"
+	/sbin/rpcbind
+fi
+
+if [ -e /sbin/rpc.statd ]; then
+	echo "Starting rpc-statd"
+	/sbin/rpc.statd
+fi
+
