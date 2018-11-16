@@ -1,4 +1,4 @@
-FROM microsoft/dotnet:2.1.6-runtime-alpine3.7
+FROM microsoft/dotnet:2.1.500-sdk-alpine3.7
 MAINTAINER Sylvain Martin (sylvain@nforcer.com)
 
 ARG OVERLAY_VER="v1.21.7.0"
